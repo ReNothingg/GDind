@@ -1,0 +1,13 @@
+torch
+torchvision
+torchaudio
+opencv-python
+numpy
+mss
+pynput
+pygetwindow
+Pillow
+pandas
+matplotlib
+# Для Windows (опционально):
+# pywin32
