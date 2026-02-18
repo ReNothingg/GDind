@@ -40,40 +40,6 @@
 
 ---
 
-## Установка и настройка
-
-1. **Получение файлов проекта:**
-   - Клонируйте репозиторий или загрузите файлы проекта (`GDint.py`, `GDint_config.py`, папка `img`).
-2. **Создание виртуального окружения (рекомендуется):**
-   ```bash
-   python -m venv gdint_env
-   source gdint_env/bin/activate  # Linux/macOS
-   gdint_env\Scripts\activate    # Windows
-   ```
-3. **Установка зависимостей:**
-   Создайте файл `requirements.txt` с содержимым:
-   ```txt
-   torch
-   torchvision
-   torchaudio
-   opencv-python
-   numpy
-   mss
-   pynput
-   pygetwindow
-   Pillow
-   pandas
-   matplotlib
-   # Для Windows (опционально):
-   # pywin32
-   ```
-   Выполните команду:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
----
-
 ## Настройка игры Geometry Dash
 
 1. **Режим окна:**
